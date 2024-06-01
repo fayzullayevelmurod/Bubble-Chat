@@ -1,0 +1,9 @@
+.arrow__btn {
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    background: #EFEFEF;   
+}
