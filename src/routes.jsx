@@ -1,11 +1,12 @@
 import { Route, Routes } from "react-router-dom";
-import { ActivityFeed, UserProfile } from "./pages";
+import { ActivityFeed, Chat, UserProfile } from "./pages";
 
 const routes = [
   { path: "/user-profile", element: <UserProfile /> },
   {
     path: '/activity-feed', element: <ActivityFeed />
-  }
+  },
+  { path: '/chat', element: <Chat /> }
 ];
 
 export const AppRoutes = () => (

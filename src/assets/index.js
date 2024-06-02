@@ -11,6 +11,9 @@ import watchIcon from "./icons/watch-icon.svg";
 import watchIconBlack from "./icons/watch-icon-black.svg";
 import doubleCheckIcon from "./icons/double-check.svg";
 import seenStories from "./seen-stories1.png";
+import heartIcon from "./icons/heart-icon.svg";
+import msgStories from "./chat-stories-img1.png";
+import cameraIcon from "./icons/camera-icon.svg";
 export default {
   nextIcon,
   prevIcon,
@@ -24,5 +27,8 @@ export default {
   watchIcon,
   doubleCheckIcon,
   watchIconBlack,
-  seenStories
+  seenStories,
+  heartIcon,
+  msgStories,
+  cameraIcon,
 };

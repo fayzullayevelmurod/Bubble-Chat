@@ -1,0 +1,117 @@
+.chat__page {
+  padding: 20px 18px 0 18px;
+  background: url(../../assets/chat-bg.png) no-repeat;
+  background-size: cover;
+  position: relative;
+  min-height: 100vh;
+}
+.chat__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.chat__header .profile__card {
+  z-index: 1;
+  position: relative;
+  padding: 2px;
+  border-radius: 43px;
+  overflow: hidden;
+  width: 213px;
+}
+.chat__header .profile__card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  border-radius: inherit;
+  background: linear-gradient(
+    180deg,
+    rgba(252, 74, 140, 0.8) 0%,
+    rgba(237, 42, 86, 0.8) 100%
+  );
+}
+.chat__header .profile__card-content {
+  background: #fff;
+  display: flex;
+  align-items: center;
+  gap: 23px;
+  border-radius: inherit;
+}
+.chat__header .profile__card .user__name {
+  font-size: 12px;
+  font-weight: 800;
+  line-height: 14.52px;
+  letter-spacing: 0.05em;
+  display: block;
+}
+.chat__header .profile__card .shooting__text {
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 12.1px;
+  letter-spacing: 0.05em;
+  color: #ed2a56;
+  text-align: center;
+  display: block;
+}
+.go__back {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.go__back span {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14.52px;
+  letter-spacing: 0.05em;
+}
+
+.chat__page .pink__btn {
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 12.1px;
+  color: #fff;
+  padding: 3px;
+  width: 113px;
+  background: #f15481;
+  border-radius: 27px;
+  margin: 20px auto 13px auto;
+  display: block;
+}
+
+/* messages__box */
+.messages__box {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+.messages__box .stories__msg:last-child {
+  margin-left: auto;
+}
+.messages__box .stories__msg-img {
+  border: 1px solid #e24d78;
+  border-radius: 37px 37px 37px 2px;
+  width: 213px;
+  height: 213px;
+  padding: 3px;
+}
+.messages__box .stories__msg-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 37px 37px 37px 2px;
+}
+.messages__box .stories__msg .send__date {
+  font-size: 10px;
+  line-height: 12.1px;
+  color: #cc3952;
+  padding: 8px 0 0 9px;
+}
+.chat__page .bottom__btn {
+  position: relative;
+  bottom: 27px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding-top: 100px;
+}
