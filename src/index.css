@@ -43,6 +43,9 @@ button {
   border: none;
   cursor: pointer;
   background: transparent;
+  color: #000;
+  -webkit-appearance: none;
+  text-decoration: none;
 }
 .wrapper {
   overflow: hidden;
@@ -50,4 +53,10 @@ button {
   width: 100%;
   margin: 0 auto;
   position: relative;
+}
+
+button span {
+  color: #000;
+  -webkit-appearance: none;
+  text-decoration: none;
 }
