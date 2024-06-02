@@ -4,7 +4,7 @@ import './activity-feed.css'
 import { Contact } from '../../components/contact/Contact'
 import { useState } from 'react'
 export const ActivityFeed = () => {
-  const [showContact, setShowContact] = useState(true);
+  const [showContact, setShowContact] = useState(false);
 
   const handleShowContact = () => {
     setShowContact(!showContact);
