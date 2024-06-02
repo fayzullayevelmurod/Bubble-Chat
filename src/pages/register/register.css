@@ -1,0 +1,88 @@
+.register__page {
+  padding: 43px 16px 60px 16px;
+  background: url(../../assets/register-bg.png) no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.register__title {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29.05px;
+  color: #151f33;
+  text-align: center;
+  margin: 44px 0 28px 0;
+}
+
+.register__input {
+  width: 100%;
+  height: 56px;
+  padding: 16px;
+  border-radius: 16px;
+  border: none;
+  outline: none;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #151f33;
+  border: 1px solid transparent;
+}
+.register__input:focus {
+  border-color: #e2579d;
+}
+.register__input::placeholder {
+  color: #919eab;
+}
+.register__info {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 15.6px;
+  color: #919eab;
+  text-align: center;
+  margin-bottom: 23px;
+}
+.register__info a {
+  color: #e2579d;
+}
+.bottom__box {
+  margin-top: 58px;
+}
+
+.input__form {
+  display: flex;
+  gap: 10px;
+  max-width: 275px;
+  margin: 0 auto;
+}
+.input__form input {
+  text-align: center;
+}
+.password__info {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 15.6px;
+  color: #919eab;
+  padding-top: 10px;
+}
+.password__box {
+  position: relative;
+}
+.password__box .see__password-icon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 14px;
+}
+.full__name-inputs {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.prize__icon {
+  margin: 20px auto 0 auto;
+  display: block;
+  width: 100px;
+  height: 100px;
+}

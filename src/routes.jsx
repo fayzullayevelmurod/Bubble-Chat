@@ -1,7 +1,12 @@
 import { Route, Routes } from "react-router-dom";
-import { ActivityFeed, Chat, Reels, UserProfile } from "./pages";
+import { ActivityFeed, AllDone, Chat, Reels, RegisterCode, RegisterEmail, RegisterFullName, RegisterPassword, UserProfile } from "./pages";
 
 const routes = [
+  { path: "/", element: <RegisterEmail /> },
+  { path: "/register-code", element: <RegisterCode /> },
+  { path: "/register-password", element: <RegisterPassword /> },
+  { path: "/register-full-name", element: <RegisterFullName /> },
+  { path: "/register-finished", element: <AllDone /> },
   { path: "/user-profile", element: <UserProfile /> },
   {
     path: '/activity-feed', element: <ActivityFeed />

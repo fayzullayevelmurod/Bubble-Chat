@@ -1,9 +1,20 @@
 .arrow__btn {
-    width: 44px;
-    height: 44px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 12px;
-    background: #EFEFEF;   
+  display: flex;
+  align-items: center;
+  gap: 17px;
+}
+.arrow__btn .icon__box {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  background: #efefef;
+}
+.arrow__btn span {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.36px;
+  color: #919eab;
 }

@@ -2,3 +2,8 @@ export { UserProfile } from "./user-profile/UserProfile";
 export { ActivityFeed } from "./activity-feed/ActivityFeed";
 export { Chat } from "./chat/Chat";
 export { Reels } from "./reels/Reels";
+export { RegisterEmail } from "./register/RegisterEmail";
+export { RegisterCode } from "./register/RegisterCode";
+export { RegisterPassword } from "./register/RegisterPassword";
+export { RegisterFullName } from "./register/RegisterFullName";
+export { AllDone } from "./register/AllDone";

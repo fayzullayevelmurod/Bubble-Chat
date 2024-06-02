@@ -27,6 +27,8 @@ import commentIcon from "./icons/comment-icon.svg";
 import airplanIcon from "./icons/airplan-icon.svg";
 import purpleUserIcon from "./icons/purple-user.svg";
 import plusIcon from "./icons/plus-icon.svg";
+import seeIcon from "./icons/see-icon.svg";
+import prizeIcon from "./icons/prize-icon.png";
 export default {
   nextIcon,
   prevIcon,
@@ -56,5 +58,7 @@ export default {
   commentIcon,
   airplanIcon,
   purpleUserIcon,
-  plusIcon
+  plusIcon,
+  seeIcon,
+  prizeIcon,
 };

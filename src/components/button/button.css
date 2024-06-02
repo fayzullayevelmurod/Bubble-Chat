@@ -1,0 +1,16 @@
+.pink__btn {
+  background: linear-gradient(135deg, #fb498a 0%, #ed2c58 100%);
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 12px;
+  width: 100%;
+}
+.pink__btn.disabled {
+  color: #919eab;
+  background: #fff;
+}
