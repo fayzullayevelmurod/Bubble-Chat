@@ -14,6 +14,7 @@
   justify-content: space-between;
   transition: 0.3s;
   transform: translateY(100%);
+  gap: 20px;
 }
 .capture__screen.show {
   transform: translateY(0);
