@@ -1,8 +1,11 @@
 import { Route, Routes } from "react-router-dom";
-import { UserProfile } from "./pages";
+import { ActivityFeed, UserProfile } from "./pages";
 
 const routes = [
   { path: "/user-profile", element: <UserProfile /> },
+  {
+    path: '/activity-feed', element: <ActivityFeed />
+  }
 ];
 
 export const AppRoutes = () => (
