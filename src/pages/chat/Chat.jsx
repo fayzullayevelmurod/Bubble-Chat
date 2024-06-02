@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import './chat.css';
 import assets from '../../assets';
 import { useState } from "react";
-import { CaptureScreen } from "../capture-screen/CaptureScreen";
+import { CaptureScreen } from "../../components";
 export const Chat = () => {
   const [showCamera, setShowCamera] = useState(false);
 

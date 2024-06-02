@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 import assets from "../assets"
-
+import "./index.css";
 export const ArrowButton = ({ nextIcon, prevIcon, path }) => {
     return (
         <Link className="arrow__btn" to={path}>

@@ -1,5 +1,5 @@
 import { Route, Routes } from "react-router-dom";
-import { ActivityFeed, Chat, UserProfile } from "./pages";
+import { ActivityFeed, Chat, Reels, UserProfile } from "./pages";
 
 const routes = [
   { path: "/user-profile", element: <UserProfile /> },
@@ -7,6 +7,7 @@ const routes = [
     path: '/activity-feed', element: <ActivityFeed />
   },
   { path: '/chat', element: <Chat /> },
+  { path: '/reels', element: <Reels /> },
 ];
 
 export const AppRoutes = () => (

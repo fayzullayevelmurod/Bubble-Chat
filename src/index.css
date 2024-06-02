@@ -44,3 +44,9 @@ button {
   cursor: pointer;
   background: transparent;
 }
+.wrapper {
+  overflow: hidden;
+  max-width: 480px;
+  width: 100%;
+  margin: 0 auto;
+}

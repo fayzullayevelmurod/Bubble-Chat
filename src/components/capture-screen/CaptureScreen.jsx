@@ -1,9 +1,7 @@
 import assets from "../../assets";
 import './capture-screen.css';
+// eslint-disable-next-line react/prop-types
 export const CaptureScreen = ({ showCamera, setShowCamera }) => {
-
-
-
   return (
     <div className={`capture__screen ${showCamera ? 'show' : ''}`}>
       <div>

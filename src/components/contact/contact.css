@@ -1,0 +1,131 @@
+.contact {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 93vh;
+  border-radius: 40px 40px 0px 0px;
+  background: #f3f3f3;
+  padding: 58px 33px 10px 24px;
+  transform: translateY(100%);
+  transition: 0.3s;
+  z-index: 10;
+  overflow-x: auto;
+}
+.contact::-webkit-scrollbar-thumb {
+  width: 4px;
+  background: #d9d9d9;
+}
+.contact.show {
+  transform: translateY(0);
+}
+.contact .close__btn {
+  position: absolute;
+  top: 9px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #323232;
+  width: 32px;
+  height: 4px;
+  border-radius: 17px;
+}
+.contact .title__box {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding-bottom: 23px;
+}
+.contact .title__box h2 {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19.36px;
+}
+.contact .user__img {
+  border: 2px solid #d9d9d9;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact .user__img-box {
+  width: 40px;
+  height: 40px;
+  border-radius: inherit;
+  background: #d9d9d9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact .contact__boxes {
+  display: flex;
+  flex-direction: column;
+  row-gap: 11px;
+}
+.contact .contact__box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.contact .contact__box .send__box {
+  padding: 5px 13px;
+  border-radius: 31px;
+  background: #ed2956;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14.52px;
+  color: #fff;
+}
+.contact .user__content {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.contact .user__content .user__name {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16.94px;
+  margin-top: -4px;
+  display: block;
+}
+.contact .user__content .flex__box {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding-top: 5px;
+}
+.contact .user__content .flex__box span {
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 12.1px;
+}
+.contact .show__more-box {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  margin-top: 28px;
+}
+.contact .show__more-box .line {
+  background: #e6e6e6;
+  width: 100%;
+  height: 1px;
+}
+.contact .show__more-btn {
+  border: 1px solid #ed2b56;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14.52px;
+  padding: 7px 22px;
+  border-radius: 49px;
+  white-space: nowrap;
+  color: #ed2b56;
+}
+
+/* me__contacts */
+.me__contacts {
+  margin-top: 26px;
+}

@@ -19,6 +19,14 @@ import photo from "./photo.png";
 import flashIcon from "./icons/flash-icon.svg";
 import captureImg1 from "./capture-img.png";
 import replaceIcon from "./icons/replace-icon.svg";
+import reelsImg1 from "./reels-img1.png";
+import copyIcon from "./icons/copy-icon.svg";
+import cameraIcon2 from "./icons/camera-icon2.svg";
+import starsIcon from "./icons/stars-icon.svg";
+import commentIcon from "./icons/comment-icon.svg";
+import airplanIcon from "./icons/airplan-icon.svg";
+import purpleUserIcon from "./icons/purple-user.svg";
+import plusIcon from "./icons/plus-icon.svg";
 export default {
   nextIcon,
   prevIcon,
@@ -41,4 +49,12 @@ export default {
   flashIcon,
   captureImg1,
   replaceIcon,
+  reelsImg1,
+  copyIcon,
+  cameraIcon2,
+  starsIcon,
+  commentIcon,
+  airplanIcon,
+  purpleUserIcon,
+  plusIcon
 };
