@@ -4,6 +4,9 @@
   background-size: cover;
   position: relative;
   min-height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
 }
 .chat__header {
   display: flex;
@@ -109,9 +112,10 @@
   padding: 8px 0 0 9px;
 }
 .chat__page .bottom__btn {
-  position: absolute;
-  bottom: 27px;
-  left: 50%;
-  transform: translateX(-50%);
+  /* position: relative; */
+  /* bottom: 27px; */
+  /* left: 50%; */
+  /* transform: translateX(-50%); */
   margin-top: 100px;
+  margin-bottom: 25px;
 }
