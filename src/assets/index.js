@@ -14,6 +14,11 @@ import seenStories from "./seen-stories1.png";
 import heartIcon from "./icons/heart-icon.svg";
 import msgStories from "./chat-stories-img1.png";
 import cameraIcon from "./icons/camera-icon.svg";
+import chatIcon from "./icons/chat-icon.svg";
+import photo from "./photo.png";
+import flashIcon from "./icons/flash-icon.svg";
+import captureImg1 from "./capture-img.png";
+import replaceIcon from "./icons/replace-icon.svg";
 export default {
   nextIcon,
   prevIcon,
@@ -31,4 +36,9 @@ export default {
   heartIcon,
   msgStories,
   cameraIcon,
+  chatIcon,
+  photo,
+  flashIcon,
+  captureImg1,
+  replaceIcon,
 };

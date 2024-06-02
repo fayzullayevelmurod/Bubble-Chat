@@ -6,7 +6,7 @@ const routes = [
   {
     path: '/activity-feed', element: <ActivityFeed />
   },
-  { path: '/chat', element: <Chat /> }
+  { path: '/chat', element: <Chat /> },
 ];
 
 export const AppRoutes = () => (
